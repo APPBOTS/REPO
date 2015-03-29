@@ -18,6 +18,7 @@
 		DC627E251AC6111B00524DC4 /* entityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC627E241AC6111B00524DC4 /* entityViewController.swift */; };
 		DC627E271AC62C9B00524DC4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC627E261AC62C9B00524DC4 /* CoreDataStack.swift */; };
 		DC627E2D1AC6571100524DC4 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC627E2C1AC6571100524DC4 /* ListTableViewController.swift */; };
+		DC6F80881AC85983000AD091 /* CoreDataTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F80871AC85983000AD091 /* CoreDataTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		DC627E241AC6111B00524DC4 /* entityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = entityViewController.swift; sourceTree = "<group>"; };
 		DC627E261AC62C9B00524DC4 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		DC627E2C1AC6571100524DC4 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		DC6F80871AC85983000AD091 /* CoreDataTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataTestCase.swift; path = ../APLICATION/CoreDataTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 		DC627E151AC5FEB100524DC4 /* APLICATIONTests */ = {
 			isa = PBXGroup;
 			children = (
+				DC6F80871AC85983000AD091 /* CoreDataTestCase.swift */,
 				DC627E181AC5FEB100524DC4 /* APLICATIONTests.swift */,
 				DC627E161AC5FEB100524DC4 /* Supporting Files */,
 			);
@@ -241,6 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC6F80881AC85983000AD091 /* CoreDataTestCase.swift in Sources */,
 				DC627E191AC5FEB100524DC4 /* APLICATIONTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +429,7 @@
 				DC627E1E1AC5FEB100524DC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DC627E1F1AC5FEB100524DC4 /* Build configuration list for PBXNativeTarget "APLICATIONTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +438,7 @@
 				DC627E211AC5FEB100524DC4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
