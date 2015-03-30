@@ -8,6 +8,7 @@
 
 import UIKit
 import XCTest
+import APLICATION
 
 class APLICATIONTests: XCTestCase {
     
@@ -21,6 +22,16 @@ class APLICATIONTests: XCTestCase {
         super.tearDown()
     }
     
+    
+    func testViewDidLoad()
+    {
+        // Keep in mind we only have access to this if we improt our project above
+        let v = ViewController()
+        
+        // Easy enough: assert that the ViewController.view is not nil
+        XCTAssertNotNil(v.view, "View Did Not load")
+    }
+    
     func testExample() {
         // This is an example of a functional test case.
         XCTAssert(true, "Pass")
@@ -32,5 +43,6 @@ class APLICATIONTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
+    
     
 }
