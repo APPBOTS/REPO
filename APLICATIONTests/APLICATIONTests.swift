@@ -24,13 +24,16 @@ class APLICATIONTests: XCTestCase {
     
     func testExample() {
         // This is an example of a functional test case.
+        XCTAssert(true, "Pass")
+    }
+    func testViewDidLoad()
+    {
+        // Keep in mind we only have access to this if we improt our project above
         let v = ViewController()
         
         // Easy enough: assert that the ViewController.view is not nil
         XCTAssertNotNil(v.view, "View Did Not load")
-        XCTAssert(true, "Pass")
     }
-
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
