@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC0E2FF71AC9901B00F13DCB /* Unit_Test_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0E2FF61AC9901B00F13DCB /* Unit_Test_ExampleTests.swift */; };
 		DC627E001AC5FEB100524DC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC627DFF1AC5FEB100524DC4 /* AppDelegate.swift */; };
 		DC627E031AC5FEB100524DC4 /* APLICATION.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC627E011AC5FEB100524DC4 /* APLICATION.xcdatamodeld */; };
 		DC627E051AC5FEB100524DC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC627E041AC5FEB100524DC4 /* ViewController.swift */; };
@@ -18,7 +19,6 @@
 		DC627E251AC6111B00524DC4 /* entityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC627E241AC6111B00524DC4 /* entityViewController.swift */; };
 		DC627E271AC62C9B00524DC4 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC627E261AC62C9B00524DC4 /* CoreDataStack.swift */; };
 		DC627E2D1AC6571100524DC4 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC627E2C1AC6571100524DC4 /* ListTableViewController.swift */; };
-		DC6F80881AC85983000AD091 /* CoreDataTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6F80871AC85983000AD091 /* CoreDataTestCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC0E2FF61AC9901B00F13DCB /* Unit_Test_ExampleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit_Test_ExampleTests.swift; sourceTree = "<group>"; };
 		DC627DFA1AC5FEB100524DC4 /* APLICATION.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APLICATION.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC627DFE1AC5FEB100524DC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC627DFF1AC5FEB100524DC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +48,6 @@
 		DC627E241AC6111B00524DC4 /* entityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = entityViewController.swift; sourceTree = "<group>"; };
 		DC627E261AC62C9B00524DC4 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		DC627E2C1AC6571100524DC4 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
-		DC6F80871AC85983000AD091 /* CoreDataTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreDataTestCase.swift; path = ../APLICATION/CoreDataTestCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,7 +115,7 @@
 		DC627E151AC5FEB100524DC4 /* APLICATIONTests */ = {
 			isa = PBXGroup;
 			children = (
-				DC6F80871AC85983000AD091 /* CoreDataTestCase.swift */,
+				DC0E2FF61AC9901B00F13DCB /* Unit_Test_ExampleTests.swift */,
 				DC627E181AC5FEB100524DC4 /* APLICATIONTests.swift */,
 				DC627E161AC5FEB100524DC4 /* Supporting Files */,
 			);
@@ -244,7 +244,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC6F80881AC85983000AD091 /* CoreDataTestCase.swift in Sources */,
+				DC0E2FF71AC9901B00F13DCB /* Unit_Test_ExampleTests.swift in Sources */,
 				DC627E191AC5FEB100524DC4 /* APLICATIONTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
