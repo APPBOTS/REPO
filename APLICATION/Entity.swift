@@ -9,9 +9,10 @@
 import Foundation
 import CoreData
 
-class Entity: NSManagedObject {
 
-    @NSManaged var menuText: String
-    @NSManaged var createdAt: NSDate
+public class Entity: NSManagedObject {
+
+    @NSManaged public var menuText: String
+    @NSManaged public var createdAt: NSDate
 
 }
