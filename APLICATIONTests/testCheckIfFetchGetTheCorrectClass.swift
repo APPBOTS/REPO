@@ -32,11 +32,7 @@ class testCheckIfFetchGetTheCorrectClass: XCTestCase {
         
         let entity = NSEntityDescription.entityForName("Entity", inManagedObjectContext: moc)
         let origen = Entity(entity: entity!, insertIntoManagedObjectContext: moc)
-        
-        origen.menuText = "Julio"
-        
         var origenes = [Entity]()
-        
         var request = NSFetchRequest(entityName: "Entity")
         var e: NSError?
         if let results = moc.executeFetchRequest(request, error: &e) {
